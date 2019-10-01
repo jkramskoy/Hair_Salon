@@ -20,16 +20,44 @@
       <h1> Hairdresser Hans</h1>
        <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active text-white" href="#">Our services</a>
+            <a class="nav-link active " href="#">Our services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Make an appointment</a>
+            <a class="nav-link " href="#">Make an appointment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">FAQ</a>
+            <a class="nav-link" href="#">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About us</a>
+            <a class="nav-link" data-target="#exampleModalLong" data-toggle="modal" href="#">About us</a>
+              <!-- Modal -->
+                <div aria-hidden="true" aria-labelledby="exampleModalLongTitle" class="modal fade" id="exampleModalLong"
+                     role="dialog" tabindex="-1">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">About us</h5>
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>At Hans Hairsalon we are passionate about meeting the unique needs of our clients and
+                                    creating a style that highlights their natural beauty.
+                                    We create a perfect style by listening to their clients' desires, whether they are a
+                                    business professional or someone who wants to sport the
+                                    trendiest styles.</p>
+                                <p>We pride ourselves in keeping up with our education and therefore, we always bring a
+                                    fresh prespective to our work. Our atmosphere is comfortable and professional...
+                                    a taste of Vienna and Austria.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
           </li>
           <li>
             <input type="button" value="Search">
@@ -184,18 +212,85 @@
             </tr>
 
        </tbody>
-</table>
-
+   </table>
+              <small class="form-text text-muted">
+                * We don't work on holidays
+            </small>
           </div>
-
       </div>
 
      <div class="categories">
          <h1>FAQ (frequently asked questions) </h1>
       </div>
 
+      <div class="container">
+         <div class="row">
+            <div class="col-sm">
+                 <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseOne" aria-expanded="true" class="btn btn-link" data-target="#collapseOne"
+                                    data-toggle="collapse" type="button">
+                                Do you have gift certificates?
+                            </button>
+                        </h2>
+                    </div>
 
-</div>
+                    <div aria-labelledby="headingOne" class="collapse show" data-parent="#accordionExample"
+                         id="collapseOne">
+                        <div class="card-body">
+                            Gift certificates are available for purchase in the salon or over the phone. If you purchase
+                            a gift certificate over the phone, we can either mail it to your luck recipient or simply
+                            keep in our files. Elixir salon gift certificates are not redeemable for cash or refundable.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseTwo" aria-expanded="true" class="btn btn-link" data-target="#collapseTwo"
+                                    data-toggle="collapse" type="button">
+                                Can I bring my pet along?
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div aria-labelledby="headingTwo" class="collapse show" data-parent="#accordionExample"
+                         id="collapseTwo">
+                        <div class="card-body">
+                           Unfortunately not.
+                        </div>
+                    </div>
+                </div>
+
+                     <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseThree" aria-expanded="true" class="btn btn-link" data-target="#collapseThree"
+                                    data-toggle="collapse" type="button">
+                                What awards did yoy receive so far?
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div aria-labelledby="headingThree" class="collapse show" data-parent="#accordionExample"
+                         id="collapseThree">
+                        <div class="card-body">
+                            As Manager, my credentials include titles such as Bumble & Bumble Network Educator,
+                            TIGI Copyright Colour Specialist & Instructor, in addition to being a nominated Finalist for the Contessa Hairstyling Awards.
+                            I am not only dedicated to our Salon You team, but to my highly rated clientèle!
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </div>
+
+
+
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
