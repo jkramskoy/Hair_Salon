@@ -1,0 +1,29 @@
+.carousel{
+
+     height:700px;
+}
+
+.categories{
+     position:center;
+     margin-left:700px;
+     margin-right:auto;
+     padding:5px;
+     width:800px;
+     padding-top:5px;
+
+
+}
+div{
+padding-left:5px;
+margin-top:3px;
+
+}
+
+.form-group{
+  margin-left:300px;
+}
+
+.table{
+   margin-left:300px;
+   background-color:#40E0D0;
+}
