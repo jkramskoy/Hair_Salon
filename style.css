@@ -14,7 +14,7 @@
 }
 
 div{
-    padding-left:5px;
+
     margin-top:3px;
 
 }
@@ -31,3 +31,16 @@ div{
 .form-text{
    margin-left:228px;
 }
+
+.footer_img{
+    width:350px;
+    height: 200px;
+}
+.contact{
+    text-align:center;
+}
+.footer_navigation{
+    text-align:center;
+}
+
+
